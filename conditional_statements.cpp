@@ -8,14 +8,22 @@ int main(){
 int age;
 cout<<"enter the age:";
 cin >> age;
+// if (age >= 18){
+//     cout<< "adult!" ;
+//    }
+//   else if (age >= 10){
+//     cout<< "not adult!" ;
+//    }
+// else {
+//       cout<< " child!";
+//       }
+
+
 if (age >= 18){
-    cout<< "adult!" ;
-   }
-  else if (age >= 10){
-    cout<< "not adult!" ;
+    cout<< "Eligible for vote!" ;
    }
 else {
-      cout<< " child!";
+      cout<< "Not eligible for vote !";
       }
 return 0;
 }
