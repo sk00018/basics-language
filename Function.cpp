@@ -5,9 +5,8 @@ using namespace std;
 // or used to modularise code or used to increase readability or used to use same code multiple times
 // void -> which does not returns anything
 // return
-// parameterised
-// non parameterised
-
+// parameterized
+// non parameterized
 
 void printname(string name){
 cout <<"hey " << name <<endl;
