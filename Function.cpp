@@ -58,16 +58,29 @@ using namespace std;
 //     cout << s << endl;
 
 
-// ......pass by reference........
-void dosomthing(string &s){
-    s[0] = 't';
-    cout << s <<endl;
-}
-int main(){
-    string s = "raj";
-    dosomthing(s);
-    cout << s << endl;
+// // ......pass by reference........
+// void dosomthing(string &s){
+//     s[0] = 't';
+//     cout << s <<endl;
+// }
+// int main(){
+//     string s = "raj";
+//     dosomthing(s);
+//     cout << s << endl;
 
-    
+
+
+// ..........................
+  
+void dosomthing(int &num){
+     
+}
+int main(){  
+   int arr[6];
+   cin>> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4] >> arr[5];
+
+   cout <<arr[0]<<endl <<arr[1]<<endl <<arr[2]<<endl <<arr[3];
+
+   
     return 0;
 }
