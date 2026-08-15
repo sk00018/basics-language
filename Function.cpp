@@ -33,19 +33,29 @@ using namespace std;
 
 
 
-// .......pass by value.........
-void dosomthing(int num){
-    cout << num << endl;
-    num +=5;
-    cout << num << endl;
-    num +=5;
-    cout << num << endl;
+// // .......pass by value.........
+// void dosomthing(int num){
+//     cout << num << endl;
+//     num +=5;
+//     cout << num << endl;
+//     num +=5;
+//     cout << num << endl;
     
+// }
+// int main(){
+//     int num = 10;
+//     dosomthing(num);
+//     cout << num << endl;
+
+// .........................................
+void dosomthing(string s){
+    s[0] = 't';
+    cout << s <<endl;
 }
 int main(){
-    int num = 10;
-    dosomthing(num);
-    cout << num << endl;
+    string s = "raj";
+    dosomthing(s);
+    cout << s << endl;
 
 
     return 0;
