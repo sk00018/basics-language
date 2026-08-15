@@ -43,12 +43,23 @@ using namespace std;
     
 // }
 // int main(){
-//     int num = 10;
-//     dosomthing(num);
-//     cout << num << endl;
+// //     int num = 10;
+// //     dosomthing(num);
+// //     cout << num << endl;
 
-// .........................................
-void dosomthing(string s){
+// // .........................................
+// void dosomthing(string s){
+//     s[0] = 't';
+//     cout << s <<endl;
+// }
+// int main(){
+//     string s = "raj";
+//     dosomthing(s);
+//     cout << s << endl;
+
+
+// ......pass by reference........
+void dosomthing(string &s){
     s[0] = 't';
     cout << s <<endl;
 }
@@ -57,6 +68,6 @@ int main(){
     dosomthing(s);
     cout << s << endl;
 
-
+    
     return 0;
 }
