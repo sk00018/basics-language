@@ -72,15 +72,39 @@ using namespace std;
 
 // ..........................
   
-void dosomthing(int &num){
+// void dosomthing(int &num){
      
-}
-int main(){  
-   int arr[6];
-   cin>> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4] >> arr[5];
+// }
+// int main(){  
+//    int arr[6];
+//    cin>> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4] >> arr[5];
 
-   cout <<arr[0]<<endl <<arr[1]<<endl <<arr[2]<<endl <<arr[3];
+//    cout <<arr[0]<<endl <<arr[1]<<endl <<arr[2]<<endl <<arr[3];
 
    
+
+// ..............................................
+
+// Function using pass by reference
+void findLargest(int &a, int &b, int &largest)
+{
+    if (a > b)
+        largest = a;
+    else
+        largest = b;
+}
+
+int main()
+{
+    int num1, num2, largest;
+
+    cout << "Enter two numbers: ";
+    cin >> num1 >> num2;
+
+    findLargest(num1, num2, largest);
+
+    cout << "Largest number = " << largest << endl;
+
+    
     return 0;
 }
