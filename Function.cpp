@@ -58,6 +58,24 @@ using namespace std;
 //     cout << s << endl;
 
 
+// ........................................
+void square(int n)
+{
+    cout << "Square = " << n * n << endl;
+}
+
+int main()
+{
+    int number;
+
+    cout << "Enter a number: ";
+    cin >> number;
+
+    square(number);   // Pass by value
+
+
+
+
 // // ......pass by reference........
 // void dosomthing(string &s){
 //     s[0] = 't';
@@ -85,25 +103,25 @@ using namespace std;
 
 // ..............................................
 
-// Function using pass by reference
-void findLargest(int &a, int &b, int &largest)
-{
-    if (a > b)
-        largest = a;
-    else
-        largest = b;
-}
+// // Function using pass by reference
+// void findLargest(int &a, int &b, int &largest)
+// {
+//     if (a > b)
+//         largest = a;
+//     else
+//         largest = b;
+// }
 
-int main()
-{
-    int num1, num2, largest;
+// int main()
+// {
+//     int num1, num2, largest;
 
-    cout << "Enter two numbers: ";
-    cin >> num1 >> num2;
+//     cout << "Enter two numbers: ";
+//     cin >> num1 >> num2;
 
-    findLargest(num1, num2, largest);
+//     findLargest(num1, num2, largest);
 
-    cout << "Largest number = " << largest << endl;
+//     cout << "Largest number = " << largest << endl;
 
     
     return 0;
