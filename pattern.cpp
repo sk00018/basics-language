@@ -27,15 +27,27 @@ int main(){
 
 
 
-// Pattern 3: Number triangle pattern   
+// // Pattern 3: Number triangle pattern   
+//     int n = 5;
+//     for(int i = 1; i <=n; i++){
+//        for(int j = 1; j <=i; j++){ 
+//           cout << j;
+//     }
+//     cout << endl;
+// }
+
+
+
+
+// Pattern 4: Decreasing_Star_Pattern   
     int n = 5;
-    for(int i = 1; i <=n; i++){
+
+    for(int i = n; i >=1; i--){
        for(int j = 1; j <=i; j++){ 
-          cout << j;
+          cout << "*";
     }
     cout << endl;
 }
-
 
 return 0;
 }
