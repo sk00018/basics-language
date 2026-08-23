@@ -51,11 +51,22 @@ int main(){
 
 
 
-// Pattern 5: Reverse Number triangle pattern   
+// // Pattern 5: Reverse Number triangle pattern   
+//     int n = 5;
+//     for(int i = n; i >= 1; i--){
+//        for(int j = 1; j <=i; j++){ 
+//           cout << j;
+//     }
+//     cout << endl;
+// }
+
+
+
+// Pattern 6: Repeated Number pattern   
     int n = 5;
-    for(int i = n; i >= 1; i--){
+    for(int i = 1; i <= n; i++){
        for(int j = 1; j <=i; j++){ 
-          cout << j;
+          cout << i;
     }
     cout << endl;
 }
