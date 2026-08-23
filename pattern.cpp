@@ -39,12 +39,23 @@ int main(){
 
 
 
-// Pattern 4: Decreasing_Star_Pattern   
-    int n = 5;
+// // Pattern 4: Decreasing_Star_Pattern   
+//     int n = 5;
 
-    for(int i = n; i >=1; i--){
+//     for(int i = n; i >=1; i--){
+//        for(int j = 1; j <=i; j++){ 
+//           cout << "*";
+//     }
+//     cout << endl;
+// }
+
+
+
+// Pattern 5: Reverse Number triangle pattern   
+    int n = 5;
+    for(int i = n; i >= 1; i--){
        for(int j = 1; j <=i; j++){ 
-          cout << "*";
+          cout << j;
     }
     cout << endl;
 }
