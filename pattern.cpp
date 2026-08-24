@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 int main(){
 
 // Pattern 1: square_star_pattern   
@@ -62,17 +61,43 @@ int main(){
 
 
 
-// Pattern 6: Repeated Number pattern   
-    int n = 5;
-    for(int i = 1; i <= n; i++){
-       for(int j = 1; j <=i; j++){ 
-          cout << i;
+// // Pattern 6: Repeated Number pattern   
+//     int n = 5;
+//     for(int i = 1; i <= n; i++){
+//        for(int j = 1; j <=i; j++){ 
+//           cout << i;
+//     }
+//     cout << endl;
+// }
+
+
+
+
+ 
+ // Pattern 6:Star Pyramid Pattern
+   int n = 5;
+
+    for (int i = 1; i <= n; i++) {
+
+        // Print spaces
+        for (int j = 1; j <= n - i; j++) {
+            cout << " ";
+        }
+
+        // Print stars
+        for (int j = 1; j <= 2 * i - 1; j++) {
+            cout << "*";
+        }
+
+        cout << endl;
     }
-    cout << endl;
-}
+
+
 
 return 0;
 }
+
+
 
 
 
