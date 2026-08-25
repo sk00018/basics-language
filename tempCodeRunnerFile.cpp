@@ -1,1 +1,1 @@
-Star Pyramid Pattern
+Reverse Pyramid Pattern

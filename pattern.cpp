@@ -74,18 +74,39 @@ int main(){
 
 
  
- // Pattern 6:Star Pyramid Pattern
-   int n = 5;
+//  // Pattern 6:Star Pyramid Pattern
+//    int n = 5;
 
-    for (int i = 1; i <= n; i++) {
+//     for (int i = 1; i <= n; i++) {
 
-        // Print spaces
-        for (int j = 1; j <= n - i; j++) {
+//         // Print spaces
+//         for (int j = 1; j <= n - i; j++) {
+//             cout << " ";
+//         }
+
+//         // Print stars
+//         for (int j = 1; j <= 2 * i - 1; j++) {
+//             cout << "*";
+//         }
+
+//         cout << endl;
+//     }
+
+
+
+
+// Pattern 7:Reverse Pyramid Pattern
+
+    int n = 9;
+
+    for (int i = n; i >= 1; i -= 2) {
+        // Spaces
+        for (int j = 0; j < (n - i) / 2; j++) {
             cout << " ";
         }
 
-        // Print stars
-        for (int j = 1; j <= 2 * i - 1; j++) {
+        // Stars
+        for (int j = 0; j < i; j++) {
             cout << "*";
         }
 
