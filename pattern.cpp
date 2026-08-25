@@ -95,24 +95,55 @@ int main(){
 
 
 
-// Pattern 7:Reverse Pyramid Pattern
+// // Pattern 7:Reverse Pyramid Pattern
 
-    int n = 9;
+//     int n = 9;
 
-    for (int i = n; i >= 1; i -= 2) {
-        // Spaces
-        for (int j = 0; j < (n - i) / 2; j++) {
+//     for (int i = n; i >= 1; i -= 2) {
+//         // Spaces
+//         for (int j = 0; j < (n - i) / 2; j++) {
+//             cout << " ";
+//         }
+
+//         // Stars
+//         for (int j = 0; j < i; j++) {
+//             cout << "*";
+//         }
+
+//         cout << endl;
+//     }
+
+
+
+// Pattern 8:Diamond star Pattern
+
+    int n = 5;
+
+    // Upper half
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= n - i; j++) {
             cout << " ";
         }
 
-        // Stars
-        for (int j = 0; j < i; j++) {
+        for (int j = 1; j <= 2 * i - 1; j++) {
             cout << "*";
         }
 
         cout << endl;
     }
 
+    // Lower half
+    for (int i = n; i >= 1; i--) {
+        for (int j = 1; j <= n - i; j++) {
+            cout << " ";
+        }
+
+        for (int j = 1; j <= 2 * i - 1; j++) {
+            cout << "*";
+        }
+
+        cout << endl;
+    }
 
 
 return 0;
