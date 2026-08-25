@@ -115,37 +115,59 @@ int main(){
 
 
 
-// Pattern 8:Diamond star Pattern
+// // Pattern 8:Diamond star Pattern
 
+//     int n = 5;
+
+//     // Upper half
+//     for (int i = 1; i <= n; i++) {
+//         for (int j = 1; j <= n - i; j++) {
+//             cout << " ";
+//         }
+
+//         for (int j = 1; j <= 2 * i - 1; j++) {
+//             cout << "*";
+//         }
+
+//         cout << endl;
+//     }
+
+//     // Lower half
+//     for (int i = n; i >= 1; i--) {
+//         for (int j = 1; j <= n - i; j++) {
+//             cout << " ";
+//         }
+
+//         for (int j = 1; j <= 2 * i - 1; j++) {
+//             cout << "*";
+//         }
+
+//         cout << endl;
+//     }
+
+
+
+
+// pattern 9: Star trangle pattern
     int n = 5;
 
-    // Upper half
+    // Increasing pattern
     for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= n - i; j++) {
-            cout << " ";
-        }
-
-        for (int j = 1; j <= 2 * i - 1; j++) {
+        for (int j = 1; j <= i; j++) {
             cout << "*";
         }
-
         cout << endl;
     }
 
-    // Lower half
-    for (int i = n; i >= 1; i--) {
-        for (int j = 1; j <= n - i; j++) {
-            cout << " ";
-        }
-
-        for (int j = 1; j <= 2 * i - 1; j++) {
+    // Decreasing pattern
+    for (int i = n - 1; i >= 1; i--) {
+        for (int j = 1; j <= i; j++) {
             cout << "*";
         }
-
         cout << endl;
     }
 
-
+   
 return 0;
 }
 
