@@ -25,6 +25,7 @@ using namespace std;
 //     return num3;
 // }
 
+
 // int main(){
 // int num1,num2;
 // cin >>  num1 >> num2;
@@ -43,9 +44,9 @@ using namespace std;
     
 // }
 // int main(){
-// //     int num = 10;
-// //     dosomthing(num);
-// //     cout << num << endl;
+//     int num = 10;
+//     dosomthing(num);
+//     cout << num << endl;
 
 // // .........................................
 // void dosomthing(string s){
@@ -58,20 +59,20 @@ using namespace std;
 //     cout << s << endl;
 
 
-// ........................................
-void square(int n)
-{
-    cout << "Square = " << n * n << endl;
-}
+// // ........................................
+// void square(int n)
+// {
+//     cout << "Square = " << n * n << endl;
+// }
 
-int main()
-{
-    int number;
+// int main()
+// {
+//     int number;
 
-    cout << "Enter a number: ";
-    cin >> number;
+//     cout << "Enter a number: ";
+//     cin >> number;
 
-    square(number);   // Pass by value
+//     square(number);   // Pass by value
 
 
 
@@ -90,14 +91,14 @@ int main()
 
 // ..........................
   
-// void dosomthing(int &num){
+void dosomthing(int &num){
      
-// }
-// int main(){  
-//    int arr[6];
-//    cin>> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4] >> arr[5];
+}
+int main(){  
+   int arr[6];
+   cin>> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4] >> arr[5];
 
-//    cout <<arr[0]<<endl <<arr[1]<<endl <<arr[2]<<endl <<arr[3];
+   cout <<arr[0]<<endl <<arr[1]<<endl <<arr[2]<<endl <<arr[3];
 
    
 
