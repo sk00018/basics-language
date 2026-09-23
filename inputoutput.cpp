@@ -2,11 +2,13 @@
 using namespace std;
 
 int main(){
-    int x , y ;
-    cout <<"enter the value of x: " << endl ;
-    cin >> x ;
-    cout <<"enter the value of y: " << endl;
-     cin >> y;
-    cout <<"value of x: " << x <<" and y: "<< y;
+    int y , z ;
+    cout <<"enter the value of y: " << endl ;
+    cin >> y ;
+    cout <<"enter the value of z: " << endl;
+     cin >> z;
+    cout <<"value of x: " << y <<" and y: "<< z;
+
     return 0;
+
 }
