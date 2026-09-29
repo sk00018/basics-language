@@ -10,5 +10,4 @@ int main(){
     cout <<"value of x: " << y <<" and y: "<< z;
 
     return 0;
-
 }
