@@ -148,7 +148,7 @@ int main(){
 
 
 
-// pattern 9: Star trangle pattern
+// pattern 9:Star trangle pattern  
     int n = 5;
 
     // Increasing pattern
